@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24A0F6AD1B53808A007F4D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F6AC1B53808A007F4D63 /* main.m */; };
+		24A0F6B01B53808A007F4D63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F6AF1B53808A007F4D63 /* AppDelegate.m */; };
+		24A0F6B31B53808B007F4D63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F6B21B53808B007F4D63 /* ViewController.m */; };
+		24A0F6B61B53808B007F4D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A0F6B41B53808B007F4D63 /* Main.storyboard */; };
+		24A0F6B81B53808B007F4D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A0F6B71B53808B007F4D63 /* Assets.xcassets */; };
+		24A0F6BB1B53808B007F4D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A0F6B91B53808B007F4D63 /* LaunchScreen.storyboard */; };
+		24A0F6C61B53808B007F4D63 /* DRvenCustomControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F6C51B53808B007F4D63 /* DRvenCustomControlTests.m */; };
+		24A0F6D11B53808B007F4D63 /* DRvenCustomControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0F6D01B53808B007F4D63 /* DRvenCustomControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24A0F6C21B53808B007F4D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24A0F6A01B53808A007F4D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A0F6A71B53808A007F4D63;
+			remoteInfo = DRvenCustomControl;
+		};
+		24A0F6CD1B53808B007F4D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24A0F6A01B53808A007F4D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A0F6A71B53808A007F4D63;
+			remoteInfo = DRvenCustomControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24A0F6A81B53808A007F4D63 /* DRvenCustomControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRvenCustomControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A0F6AC1B53808A007F4D63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24A0F6AE1B53808A007F4D63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24A0F6AF1B53808A007F4D63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24A0F6B11B53808B007F4D63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24A0F6B21B53808B007F4D63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24A0F6B51B53808B007F4D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24A0F6B71B53808B007F4D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24A0F6BA1B53808B007F4D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24A0F6BC1B53808B007F4D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24A0F6C11B53808B007F4D63 /* DRvenCustomControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRvenCustomControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A0F6C51B53808B007F4D63 /* DRvenCustomControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRvenCustomControlTests.m; sourceTree = "<group>"; };
+		24A0F6C71B53808B007F4D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24A0F6CC1B53808B007F4D63 /* DRvenCustomControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRvenCustomControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A0F6D01B53808B007F4D63 /* DRvenCustomControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRvenCustomControlUITests.m; sourceTree = "<group>"; };
+		24A0F6D21B53808B007F4D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24A0F6A51B53808A007F4D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A0F6BE1B53808B007F4D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A0F6C91B53808B007F4D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24A0F69F1B53808A007F4D63 = {
+			isa = PBXGroup;
+			children = (
+				24A0F6AA1B53808A007F4D63 /* DRvenCustomControl */,
+				24A0F6C41B53808B007F4D63 /* DRvenCustomControlTests */,
+				24A0F6CF1B53808B007F4D63 /* DRvenCustomControlUITests */,
+				24A0F6A91B53808A007F4D63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24A0F6A91B53808A007F4D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24A0F6A81B53808A007F4D63 /* DRvenCustomControl.app */,
+				24A0F6C11B53808B007F4D63 /* DRvenCustomControlTests.xctest */,
+				24A0F6CC1B53808B007F4D63 /* DRvenCustomControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24A0F6AA1B53808A007F4D63 /* DRvenCustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				24A0F6AE1B53808A007F4D63 /* AppDelegate.h */,
+				24A0F6AF1B53808A007F4D63 /* AppDelegate.m */,
+				24A0F6B11B53808B007F4D63 /* ViewController.h */,
+				24A0F6B21B53808B007F4D63 /* ViewController.m */,
+				24A0F6B41B53808B007F4D63 /* Main.storyboard */,
+				24A0F6B71B53808B007F4D63 /* Assets.xcassets */,
+				24A0F6B91B53808B007F4D63 /* LaunchScreen.storyboard */,
+				24A0F6BC1B53808B007F4D63 /* Info.plist */,
+				24A0F6AB1B53808A007F4D63 /* Supporting Files */,
+			);
+			path = DRvenCustomControl;
+			sourceTree = "<group>";
+		};
+		24A0F6AB1B53808A007F4D63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24A0F6AC1B53808A007F4D63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24A0F6C41B53808B007F4D63 /* DRvenCustomControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				24A0F6C51B53808B007F4D63 /* DRvenCustomControlTests.m */,
+				24A0F6C71B53808B007F4D63 /* Info.plist */,
+			);
+			path = DRvenCustomControlTests;
+			sourceTree = "<group>";
+		};
+		24A0F6CF1B53808B007F4D63 /* DRvenCustomControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24A0F6D01B53808B007F4D63 /* DRvenCustomControlUITests.m */,
+				24A0F6D21B53808B007F4D63 /* Info.plist */,
+			);
+			path = DRvenCustomControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24A0F6A71B53808A007F4D63 /* DRvenCustomControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A0F6D51B53808B007F4D63 /* Build configuration list for PBXNativeTarget "DRvenCustomControl" */;
+			buildPhases = (
+				24A0F6A41B53808A007F4D63 /* Sources */,
+				24A0F6A51B53808A007F4D63 /* Frameworks */,
+				24A0F6A61B53808A007F4D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DRvenCustomControl;
+			productName = DRvenCustomControl;
+			productReference = 24A0F6A81B53808A007F4D63 /* DRvenCustomControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24A0F6C01B53808B007F4D63 /* DRvenCustomControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A0F6D81B53808B007F4D63 /* Build configuration list for PBXNativeTarget "DRvenCustomControlTests" */;
+			buildPhases = (
+				24A0F6BD1B53808B007F4D63 /* Sources */,
+				24A0F6BE1B53808B007F4D63 /* Frameworks */,
+				24A0F6BF1B53808B007F4D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24A0F6C31B53808B007F4D63 /* PBXTargetDependency */,
+			);
+			name = DRvenCustomControlTests;
+			productName = DRvenCustomControlTests;
+			productReference = 24A0F6C11B53808B007F4D63 /* DRvenCustomControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24A0F6CB1B53808B007F4D63 /* DRvenCustomControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A0F6DB1B53808B007F4D63 /* Build configuration list for PBXNativeTarget "DRvenCustomControlUITests" */;
+			buildPhases = (
+				24A0F6C81B53808B007F4D63 /* Sources */,
+				24A0F6C91B53808B007F4D63 /* Frameworks */,
+				24A0F6CA1B53808B007F4D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24A0F6CE1B53808B007F4D63 /* PBXTargetDependency */,
+			);
+			name = DRvenCustomControlUITests;
+			productName = DRvenCustomControlUITests;
+			productReference = 24A0F6CC1B53808B007F4D63 /* DRvenCustomControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24A0F6A01B53808A007F4D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = RIMI;
+				TargetAttributes = {
+					24A0F6A71B53808A007F4D63 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					24A0F6C01B53808B007F4D63 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 24A0F6A71B53808A007F4D63;
+					};
+					24A0F6CB1B53808B007F4D63 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 24A0F6A71B53808A007F4D63;
+					};
+				};
+			};
+			buildConfigurationList = 24A0F6A31B53808A007F4D63 /* Build configuration list for PBXProject "DRvenCustomControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24A0F69F1B53808A007F4D63;
+			productRefGroup = 24A0F6A91B53808A007F4D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24A0F6A71B53808A007F4D63 /* DRvenCustomControl */,
+				24A0F6C01B53808B007F4D63 /* DRvenCustomControlTests */,
+				24A0F6CB1B53808B007F4D63 /* DRvenCustomControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24A0F6A61B53808A007F4D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A0F6BB1B53808B007F4D63 /* LaunchScreen.storyboard in Resources */,
+				24A0F6B81B53808B007F4D63 /* Assets.xcassets in Resources */,
+				24A0F6B61B53808B007F4D63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A0F6BF1B53808B007F4D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A0F6CA1B53808B007F4D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24A0F6A41B53808A007F4D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A0F6B31B53808B007F4D63 /* ViewController.m in Sources */,
+				24A0F6B01B53808A007F4D63 /* AppDelegate.m in Sources */,
+				24A0F6AD1B53808A007F4D63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A0F6BD1B53808B007F4D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A0F6C61B53808B007F4D63 /* DRvenCustomControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A0F6C81B53808B007F4D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A0F6D11B53808B007F4D63 /* DRvenCustomControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24A0F6C31B53808B007F4D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24A0F6A71B53808A007F4D63 /* DRvenCustomControl */;
+			targetProxy = 24A0F6C21B53808B007F4D63 /* PBXContainerItemProxy */;
+		};
+		24A0F6CE1B53808B007F4D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24A0F6A71B53808A007F4D63 /* DRvenCustomControl */;
+			targetProxy = 24A0F6CD1B53808B007F4D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24A0F6B41B53808B007F4D63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A0F6B51B53808B007F4D63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24A0F6B91B53808B007F4D63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A0F6BA1B53808B007F4D63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24A0F6D31B53808B007F4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24A0F6D41B53808B007F4D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24A0F6D61B53808B007F4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DRvenCustomControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = drven.DRvenCustomControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24A0F6D71B53808B007F4D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DRvenCustomControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = drven.DRvenCustomControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		24A0F6D91B53808B007F4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DRvenCustomControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = drven.DRvenCustomControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DRvenCustomControl.app/DRvenCustomControl";
+			};
+			name = Debug;
+		};
+		24A0F6DA1B53808B007F4D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DRvenCustomControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = drven.DRvenCustomControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DRvenCustomControl.app/DRvenCustomControl";
+			};
+			name = Release;
+		};
+		24A0F6DC1B53808B007F4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DRvenCustomControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = drven.DRvenCustomControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DRvenCustomControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		24A0F6DD1B53808B007F4D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DRvenCustomControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = drven.DRvenCustomControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DRvenCustomControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24A0F6A31B53808A007F4D63 /* Build configuration list for PBXProject "DRvenCustomControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A0F6D31B53808B007F4D63 /* Debug */,
+				24A0F6D41B53808B007F4D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A0F6D51B53808B007F4D63 /* Build configuration list for PBXNativeTarget "DRvenCustomControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A0F6D61B53808B007F4D63 /* Debug */,
+				24A0F6D71B53808B007F4D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24A0F6D81B53808B007F4D63 /* Build configuration list for PBXNativeTarget "DRvenCustomControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A0F6D91B53808B007F4D63 /* Debug */,
+				24A0F6DA1B53808B007F4D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24A0F6DB1B53808B007F4D63 /* Build configuration list for PBXNativeTarget "DRvenCustomControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A0F6DC1B53808B007F4D63 /* Debug */,
+				24A0F6DD1B53808B007F4D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24A0F6A01B53808A007F4D63 /* Project object */;
+}
