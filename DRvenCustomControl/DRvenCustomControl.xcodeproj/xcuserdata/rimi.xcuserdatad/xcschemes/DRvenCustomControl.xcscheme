@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "24A0F6A71B53808A007F4D63"
+               BuildableName = "DRvenCustomControl.app"
+               BlueprintName = "DRvenCustomControl"
+               ReferencedContainer = "container:DRvenCustomControl.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +28,36 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "24A0F6C01B53808B007F4D63"
+               BuildableName = "DRvenCustomControlTests.xctest"
+               BlueprintName = "DRvenCustomControlTests"
+               ReferencedContainer = "container:DRvenCustomControl.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "24A0F6CB1B53808B007F4D63"
+               BuildableName = "DRvenCustomControlUITests.xctest"
+               BlueprintName = "DRvenCustomControlUITests"
+               ReferencedContainer = "container:DRvenCustomControl.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "24A0F6A71B53808A007F4D63"
+            BuildableName = "DRvenCustomControl.app"
+            BlueprintName = "DRvenCustomControl"
+            ReferencedContainer = "container:DRvenCustomControl.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "24A0F6A71B53808A007F4D63"
+            BuildableName = "DRvenCustomControl.app"
+            BlueprintName = "DRvenCustomControl"
+            ReferencedContainer = "container:DRvenCustomControl.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "24A0F6A71B53808A007F4D63"
+            BuildableName = "DRvenCustomControl.app"
+            BlueprintName = "DRvenCustomControl"
+            ReferencedContainer = "container:DRvenCustomControl.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

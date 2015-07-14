@@ -8,6 +8,47 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol DRDownMenuDelegate <NSObject>
+
+/*
+ *!代理回调
+ *index 当前点击那行
+ *menu  自己
+ */
+- (void)menuSelectedWithIndex:(NSInteger)index menuControl:(id)menu;
+
+@end
+
 @interface DRDownMenuControl : UIView
+
+- (void)remove;//移除
+- (void)reload;//更新
+
+@property (nonatomic, assign) id <DRDownMenuDelegate> delegate;
+
+/*
+ *!尖角位置
+ */
+@property (nonatomic) CGFloat positionX;
+/*
+ *!元素高度
+ */
+@property (nonatomic) CGFloat eleHeight;
+/*
+ *!用户数据
+ */
+@property (nonatomic, strong) NSArray * dataContainer;
+/*
+ *!header线条颜色
+ */
+@property (nonatomic) CGColorRef bordColor;
+/*
+ *!尖角宽度
+ */
+@property (nonatomic) CGFloat cornerWidth;
+/*
+ *!动画时间
+ */
+@property (nonatomic) NSTimeInterval duration;
 
 @end
