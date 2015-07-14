@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DRDownMenuViewController.h"
+#import "DRBannerViewController.h"
 
 @interface ViewController ()
 
@@ -19,17 +20,18 @@ static NSString * cellIndentifier = @"coustomCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.automaticallyAdjustsScrollViewInsets = YES;
 }
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return 2;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIndentifier forIndexPath:indexPath];
     if (indexPath.row == 0) {
         cell.textLabel.text = @"自定义下拉菜单";
+    }else if (indexPath.row) {
+        cell.textLabel.text = @"自定义广告控件";
     }
     return cell;
 }
@@ -40,6 +42,9 @@ static NSString * cellIndentifier = @"coustomCell";
     if (indexPath.row == 0) {
         DRDownMenuViewController * menuC = [[DRDownMenuViewController alloc] init];
         [self.navigationController pushViewController:menuC animated:YES];
+    }else if (indexPath.row == 1) {
+        DRBannerViewController * banner = [[DRBannerViewController alloc] init];
+        [self.navigationController pushViewController:banner animated:YES];
     }
 }
 

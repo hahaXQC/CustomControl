@@ -29,11 +29,11 @@
 /*
  *!尖角位置
  */
-@property (nonatomic) CGFloat positionX;
+@property (nonatomic, assign) CGFloat positionX;
 /*
  *!元素高度
  */
-@property (nonatomic) CGFloat eleHeight;
+@property (nonatomic, assign) CGFloat eleHeight;
 /*
  *!用户数据
  */
@@ -41,14 +41,14 @@
 /*
  *!header线条颜色
  */
-@property (nonatomic) CGColorRef bordColor;
+@property (nonatomic, assign) CGColorRef bordColor;
 /*
  *!尖角宽度
  */
-@property (nonatomic) CGFloat cornerWidth;
+@property (nonatomic, assign) CGFloat cornerWidth;
 /*
  *!动画时间
  */
-@property (nonatomic) NSTimeInterval duration;
+@property (nonatomic, assign, getter=isDuration) NSTimeInterval duration;
 
 @end

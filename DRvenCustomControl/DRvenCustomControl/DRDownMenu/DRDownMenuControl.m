@@ -67,6 +67,12 @@ static NSString * cellIndentifier = @"cell";
     }
     return _mainTableView;
 }
+- (NSTimeInterval)isDuration {
+    if (!_duration) {
+        _duration = 1.2;
+    }
+    return _duration;
+}
 
 #pragma mark - setter
 - (void)setPositionX:(CGFloat)positionX {
